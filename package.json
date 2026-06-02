@@ -1,6 +1,6 @@
 {
-  "name": "tailwind-todo",
-  "version": "1.5.10",
+  "name": "tailwind-table-dom",
+  "version": "1.4.1",
   "description": "CLI to scaffold projects using templates",
   "keywords": [
     "tailwind",
@@ -17,9 +17,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:header": "vite build --config vite.header.config.js",
-    "build:table": "vite build --config vite.table.config.js",
-    "build:all": "vite build --config vite.all.config.js"
+    "build:table": "vite build --config vite.table.config.js"
   },
   "devDependencies": {
     "vite": "^8.0.14"
@@ -37,12 +35,12 @@
     "README.md",
     "LICENSE"
   ],
-  "homepage": "https://keshavsoft.github.io/tailwind-todo/",
+  "homepage": "https://keshavsoft.github.io/tailwind-table-dom/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keshavsoft/tailwind-todo.git"
+    "url": "git+https://github.com/keshavsoft/tailwind-table-dom.git"
   },
   "bugs": {
-    "url": "https://github.com/keshavsoft/tailwind-todo/issues"
+    "url": "https://github.com/keshavsoft/tailwind-table-dom/issues"
   }
 }
