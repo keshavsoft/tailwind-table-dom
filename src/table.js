@@ -1,14 +1,7 @@
-import { templateVersion } from "./version.js";
+import { initShowTable, initCreate, initTableWithFooter }
+    from "../bin/table/v2/commands/table/template/v6/entry.js";
 
 (async () => {
-    const {
-        initShowTable,
-        initCreate,
-        initTableWithFooter
-    } = await import(
-        `../bin/table/v2/commands/table/template/${templateVersion}/entry.js`
-    );
-
     window.KSTableVersion = "v2.2.6";
 
     window.KSTable = {};
