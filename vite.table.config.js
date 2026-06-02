@@ -6,7 +6,7 @@ export default {
             formats: ["umd"],
             fileName: () => "kstable.js",
         },
-        outDir: "Public",
+        outDir: "Public/v4",
         emptyOutDir: false
     }
 };
