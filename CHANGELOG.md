@@ -35,8 +35,8 @@ The format is based on Keep a Changelog.
 ### Added
 - full header dynamic
 
-## [1.5.5] - 2026-05-22
+## [1.1.6] - 2026-06-03
 
 ### Added
-- vite perfect
+- from bin folder, npx tested
 

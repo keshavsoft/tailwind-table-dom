@@ -1,6 +1,6 @@
 {
   "name": "tailwind-table-dom",
-  "version": "1.4.2",
+  "version": "1.1.6",
   "description": "CLI to scaffold projects using templates",
   "keywords": [
     "tailwind",
@@ -27,7 +27,7 @@
     ".": "./index.js"
   },
   "bin": {
-    "tailwind-todo": "./bin/cli.js"
+    "tailwind-table-dom": "./bin/cli.js"
   },
   "files": [
     "bin/",
