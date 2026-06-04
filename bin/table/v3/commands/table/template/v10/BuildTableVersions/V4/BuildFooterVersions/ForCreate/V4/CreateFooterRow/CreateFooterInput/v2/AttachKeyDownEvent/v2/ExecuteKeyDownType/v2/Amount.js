@@ -34,7 +34,7 @@ const amountFunc = ({
 
     showCalcMessage({
         input: currentInput,
-        message: `Rate change : ${rate}`
+        message: `RateInc change : ${rateIncValue}`
     });
 };
 

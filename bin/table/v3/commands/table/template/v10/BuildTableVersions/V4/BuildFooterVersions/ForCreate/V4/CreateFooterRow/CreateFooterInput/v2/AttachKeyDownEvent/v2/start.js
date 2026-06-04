@@ -14,7 +14,7 @@ const attachKeyDownEvent = ({
         "keydown",
         (event) => {
             if (event.key !== "Enter") return;
-            console.log("aaaaaaaaaaa : ", event.isTrusted);
+            // console.log("aaaaaaaaaaa : ", event.isTrusted);
 
             const currentInput = event.currentTarget;
 
@@ -25,11 +25,9 @@ const attachKeyDownEvent = ({
             });
 
             if (event.isTrusted) {
-
                 focusNextInput({
                     currentInput
                 });
-
             };
         }
     );
