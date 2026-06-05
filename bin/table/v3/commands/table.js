@@ -21,9 +21,7 @@ export default ({
         name: folderName
     });
 
-    if (showLog) {
-        console.log(`\n[1] Running checks..., resolvedFolderName : ${resolvedFolderName}`);
-    };
+    if (showLog) console.log(`\n[1] Running checks..., resolvedFolderName : ${resolvedFolderName}`);
 
     const fromChecks = checks({
         inFolderName: resolvedFolderName,
@@ -33,26 +31,22 @@ export default ({
 
     if (fromChecks) return false;
 
-    if (showLog) {
-        console.log("Locating source...");
-    }
+    if (showLog) console.log("Locating source...");
 
     const source = locateSource({
         showLog
     });
 
-    if (showLog) {
-        console.log("Locating destination...");
-    }
+    if (showLog) console.log(`Source is : ${source}`);
+    if (showLog) console.log("Locating destination...");
 
     const destination = locateDestination({
         inResolvedFolderName: resolvedFolderName,
         showLog
     });
 
-    if (showLog) {
-        console.log("Creating project...");
-    }
+    if (showLog) console.log(`Destination is : ${destination}`);
+    if (showLog) console.log("Creating project...");
 
     createProject({
         source,

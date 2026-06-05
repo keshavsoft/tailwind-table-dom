@@ -12,12 +12,25 @@ const templatePath = path.join(
     "template"
 );
 
+// console.log("templatePath : -------------", templatePath);
+
 const versions = fs
     .readdirSync(templatePath)
     .filter(item => item.startsWith("v"));
 
-const highestVersion =
+// console.log("versions : -------------", versions);
+
+const highestVersion1 =
     versions.sort().at(-1);
+
+const highestVersion =
+    versions.reduce((max, current) =>
+        Number(current.slice(1)) > Number(max.slice(1))
+            ? current
+            : max
+    );
+
+// console.log("highestVersion : -------------", highestVersion);
 
 const sourceVersion =
     highestVersion;

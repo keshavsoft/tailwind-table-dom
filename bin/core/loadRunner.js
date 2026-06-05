@@ -1,5 +1,5 @@
 export default async function loadRunner(version) {
-    const mod = await import(`../${version}/start.js`);
+    const mod = await import(`../table/${version}/start.js`);
 
     if (typeof mod.default !== "function") {
         throw new Error(`Invalid start.js in ${version}`);
