@@ -1,5 +1,5 @@
 import { initShowTable, initCreate, initTableWithFooter }
-    from "../bin/table/v3/commands/table/template/v11/entry.js";
+    from "../bin/table/v3/commands/table/template/v12/entry.js";
 
 (async () => {
     window.KSTableVersion = "v3.11";
