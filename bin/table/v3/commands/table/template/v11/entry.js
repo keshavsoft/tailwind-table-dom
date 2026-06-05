@@ -42,3 +42,5 @@ export const initTableWithFooter = async (cfg) => {
     await table.initTableWithFooter();   // ✅ THIS is missing
     return table;
 };
+
+// v3.11
