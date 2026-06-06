@@ -43,4 +43,4 @@ export const initTableWithFooter = async (cfg) => {
     return table;
 };
 
-// v3.11
+// v3.12
